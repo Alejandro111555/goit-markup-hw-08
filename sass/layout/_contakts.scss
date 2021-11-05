@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--title-box-color);
+}
+
+.footer-list {
+  margin-top: 9px;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--white-color-text);
+}
+.footer-adress-hero {
+  font-style: inherit;
+  padding-right: 14px;
+}
+.footer-contakts-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--header-link-color);
+  }
+}
+.footer {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.item-contakts-link:first-child {
+  margin-bottom: 9px;
+}

@@ -1,0 +1,22 @@
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--header-link-color);
+}
+.footer-logo_white {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--white-color-text);
+}
+footer.header-logo {
+  display: block;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+}

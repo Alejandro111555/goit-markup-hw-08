@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo link"
+          >Web<span class="header-logo_black">Studio</span></a
+        >
+        <nav class="navgation">
+          <ul class="navgation-list list">
+            <li class="navgation-item">
+              <a href="#" class="navgation-link link">Студия</a>
+            </li>
+            <li class="navgation-item">
+              <a href="./portfolio.html" class="navgation-link link current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navgation-item">
+              <a href="#" class="navgation-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contakts__list list">
+          <li class="header-contakts__item">
+            <a
+              href="mailto:info@example.com"
+              class="header-contakts__link link"
+            >
+              <svg class="header-contakts__symbol" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@example.com
+            </a>
+          </li>
+          <li class="header-contakts__item">
+            <a href="#" class="header-contakts__link link">
+              <svg class="header-contakts__symbol" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-Vectorphone"></use>
+              </svg>
+              +38 099 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="list button-container">
+            <li class="list-item-container">
+              <button type="button" class="filter btn-active">Все</button>
+            </li>
+            <li class="list-item-container">
+              <button type="button" class="filter">Веб-сайты</button>
+            </li>
+            <li class="list-item-container">
+              <button type="button" class="filter">Приложения</button>
+            </li>
+            <li class="list-item-container">
+              <button type="button" class="filter">Дизайн</button>
+            </li>
+            <li class="list-item-container">
+              <button type="button" class="filter">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="list hero-container">
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/laptop.jpg"
+                    alt="нэтбук с открытой страницей сайта"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Технокряк</h2>
+                  <p class="card-paragraph">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/basketball.jpg"
+                    alt="два баскетболиста прыгают за мячем"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="card-paragraph">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/logoseafood.jpg"
+                    alt="логотип ресторана морской еды"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Ресторан Seafood</h2>
+                  <p class="card-paragraph">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/headphones.jpg"
+                    alt="наушники"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Проект Prime</h2>
+                  <p class="card-paragraph">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/2boxes.jpg"
+                    alt="2 коробки разного цвета"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Проект Boxes</h2>
+                  <p class="card-paragraph">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/imak.jpg"
+                    alt="компьютер фирмы Эппл"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Inspiration has no Borders</h2>
+                  <p class="card-paragraph">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/book.jpg"
+                    alt="книга в открытом виде"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Издание Limited Edition</h2>
+                  <p class="card-paragraph">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/beig.jpg"
+                    alt="табличка с надписью лейбл тег "
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Проект LAB</h2>
+                  <p class="card-paragraph">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="hero-container-item">
+              <a href="#" class="hero-container-link link">
+                <div class="hero-container-wrapper">
+                  <img
+                    src="./images/notebook.jpg"
+                    alt="две руки на клавиатуре ноутбука"
+                    width="370"
+                  />
+                  <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur velit amet praesentium placeat tempore voluptatibus
+                    repellat rem fugit explicabo ipsa et corrupti, magnam,
+                    veniam dicta culpa quis harum est iusto.
+                  </p>
+                </div>
+                <div class="card-box">
+                  <h2 class="card-title">Growing Business</h2>
+                  <p class="card-paragraph">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="vrap">
+          <a href="./index.html" class="footer-logo link"
+            >Web<span class="footer-logo_white">Studio</span></a
+          >
+          <address class="footer-adress-hero">
+            <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="list footer-list">
+              <li class="item-contakts-link">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer-contakts-link link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="item-contakts-link">
+                <a href="#" class="footer-contakts-link link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <p class="footer-social-heading">присоединяйтесь</p>
+          <ul class="footer-social-list list">
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-mail-box">
+          <p class="mail-box-heading">Подпишитесь на рассылку</p>
+          <form class="form-online">
+            <input
+              class="online-input"
+              type="email"
+              name="user-mail"
+              id="user-mail"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="hero-button online-btn">
+              Подписаться
+              <svg class="online-btn-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
